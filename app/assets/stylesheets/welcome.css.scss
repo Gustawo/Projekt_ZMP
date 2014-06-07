@@ -1,0 +1,103 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1
+{
+	color: red;
+}
+.Project
+{
+	/*wiekszosc obszaru kazdej strony*/ 
+    margin: 0 5%;
+}
+#Header img
+{
+	margin: -7% 0;
+  margin-top: -1%;
+	width: 100%;
+}
+#LeftSide
+{
+ 	  float: left;
+    width: 18%;
+    height: 600px;
+    background-color: #d5d5d5;
+}
+#Parent
+{
+  margin: 0.1px 18%;
+  width: 82%;
+}
+#Front
+{
+	  background-color: #e0e0e0;
+    margin: auto auto;
+    /*zapewnia wysokosc, szerokosc danego obszaru str.*/
+    padding: 0% 20px;
+    color: black;
+    display: block;
+    width:auto;
+    height: 300px;
+}
+#Front2
+{
+  background-color: #e9e9e9;
+  margin: auto auto;
+  height: 300px;
+  text-align: center;
+}
+#Search
+{
+  text-align: center;
+}
+#Menu
+{
+  overflow: hidden;
+  background-color: #323232;
+  margin-top: 6.5%;
+
+}
+#Menu ul
+{
+  margin:0 40px;
+  padding:0;
+  list-style-type:none;
+  font-size:90%;
+  text-align:center;
+  color: white;
+  line-height:3.4em;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+#Menu ul li
+{
+  margin-left: -40px;
+	margin-right: 37px;
+  margin-bottom: -1px;
+  margin-top: 1px;
+	float: left;
+	background-color:  #1f1f1f;
+  border: solid 1px #d5d5d5; 
+	width:160px;
+}
+#Menu ul li:hover
+{
+  background-color:  #adadad;
+  font-size: 110%;
+}
+#Footer
+{
+  height: 40px;
+  width: auto;
+  background-color: #323232;
+  word-spacing: 10px;
+  color: white;
+  padding-left: 20px;
+  margin-top:  auto;
+  font-size: 100%;
+ border: solid 1px white; 
+ text-align: center;
+ line-height:2.4em;
+}
