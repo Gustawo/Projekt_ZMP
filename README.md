@@ -2,4 +2,4 @@
 <hr />
 <p>Dotychczas przygotowano:</p>
 -podstawowe widoki(szata graficzna strony glownej)<br/> 
--podsatawowe kontrolery <br/>
+-podstawowe kontrolery <br/>
