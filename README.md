@@ -1,2 +1,1 @@
-Dotychczas wykonane:
-szata graficzna strony glownej
+Dotychczas wykonano szate graficzna strony glownej
