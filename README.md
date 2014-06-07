@@ -1,1 +1,1 @@
-Dotychczas wykonano szate graficzna strony glownej
+Dotychczas przygotowano podstawowe widoki -w tym szate graficzna strony glownej- kontrolery 
