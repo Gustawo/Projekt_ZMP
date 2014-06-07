@@ -1,2 +1,2 @@
 Dotychczas wykonane:
--szata graficzna strony glownej
+szata graficzna strony glownej
