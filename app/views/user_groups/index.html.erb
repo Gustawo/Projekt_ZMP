@@ -1,0 +1,85 @@
+<div class="Project">
+
+	<div id="Header">
+
+		<div id="Logo">
+			<img src="/logo2.jpg", alt="Can't load image" />
+		</div>
+
+		<div id="Menu">
+			<ul>
+				<li>
+					Strona glowna
+				</li>
+				<li>
+					Nowosci
+				</li>
+				<li>
+					Produkty
+				</li>
+				<li>
+					Informacje
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="Content">
+
+		<div id="LeftSide">
+
+			Kategorie:
+		</div>
+		<div id="Parent">
+			<div id="FrontOT">
+			</br>
+				<div class="NewUser_Form">
+					</br>
+						<h1 class="Headers">Listing user_groups</h1>
+				
+						<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_groups.each do |user_group| %>
+      <tr>
+        <td><%= user_group.name %></td>
+        <td><%= link_to 'Show', user_group %></td>
+        <td><%= link_to 'Edit', edit_user_group_path(user_group) %></td>
+        <td><%= link_to 'Destroy', user_group, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<div id="edit_back_new_user">
+<%= link_to 'New User group', new_user_group_path %>
+</div>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Footer">
+			Infolinia: 987 654 321 |
+			e-mail: e-sklep@info.pl |
+			pon-pt: 10.00-20.00
+	</div>
+</div>
+
+
+
+
+
+
+
+
+

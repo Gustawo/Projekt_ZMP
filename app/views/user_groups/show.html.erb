@@ -32,23 +32,21 @@
 			Kategorie:
 		</div>
 		<div id="Parent">
-			<div id="Front">
-			
-				<form id="Search">
-				</br>
-						Wyszukiwanie produktow:
-					<p>
-						<input type="text" name="searching">
-					</br>
-					</br>
-						<input type="submit" value="Szukaj" %>
-					</p>
-			</form>
-		
-			</div>
-			<div id="Front2">
-						</br>
-				Nowe produkty:
+			<div id="FrontOT">
+			</br>
+				<div id="Result">
+					<p id="notice"><%= notice %></p>
+						<p>
+						  <strong>Name:</strong>
+						  <%= @user_group.name %>
+						</p>
+						<br/>
+					<div id="edit_back_etc">
+						<%= link_to 'Edit', edit_user_group_path(@user_group) %> |
+						<%= link_to 'Back', user_groups_path %>
+					</div>
+				
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,3 +57,7 @@
 			pon-pt: 10.00-20.00
 	</div>
 </div>
+
+
+
+
