@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Hello, <%= @user.name or @user.email %>!</h2>
+
+<% if @user.group.present? %>
+    <b>Your group is</b> <em><%= @user.group.name %></em>
+<% end %>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
