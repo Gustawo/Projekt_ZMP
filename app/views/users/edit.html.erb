@@ -1,6 +1,62 @@
-<h1>Editing user</h1>
+<div class="Project">
 
-<%= render 'form' %>
+	<div id="Header">
 
-<%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>
+		<div id="Logo">
+			<img src="/logo2.jpg", alt="Can't load image" />
+		</div>
+
+		<div id="Menu">
+			<ul>
+				<li>
+					Strona glowna
+				</li>
+				<li>
+					Nowosci
+				</li>
+				<li>
+					Produkty
+				</li>
+				<li>
+					Informacje
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="Content">
+
+		<div id="LeftSide">
+
+			Kategorie:
+		</div>
+		<div id="Parent">
+			<div id="FrontOT">
+			</br>
+				<div class="NewUser_Form">
+					</br>
+						<h1 class="Headers">Editing user</h1>
+						
+						<%= render 'form' %>
+						<br/>
+						<div id="show_back">
+								<%= link_to 'Show', @user %> |
+								<%= link_to 'Back', users_path %>
+						</div>
+						<br>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Footer">
+			Infolinia: 987 654 321 |
+			e-mail: e-sklep@info.pl |
+			pon-pt: 10.00-20.00
+	</div>
+</div>
+
+
+

@@ -27,7 +27,8 @@
     <%= f.label :user_group_id %><br>
     <%= f.select :user_group_id, UserGroup.all.map { |g| [ g.name, g.id ] } %>
   </div>
+  <br/>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Create User', :class=>'Btns' %>
   </div>
 <% end %>

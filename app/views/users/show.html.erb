@@ -1,10 +1,65 @@
-<p id="notice"><%= notice %></p>
+<div class="Project">
 
-<h2>Hello, <%= @user.name or @user.email %>!</h2>
+	<div id="Header">
 
-<% if @user.group.present? %>
-    <b>Your group is</b> <em><%= @user.group.name %></em>
-<% end %>
+		<div id="Logo">
+			<img src="/logo2.jpg", alt="Can't load image" />
+		</div>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+		<div id="Menu">
+			<ul>
+				<li>
+					Strona glowna
+				</li>
+				<li>
+					Nowosci
+				</li>
+				<li>
+					Produkty
+				</li>
+				<li>
+					Informacje
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="Content">
+
+		<div id="LeftSide">
+
+			Kategorie:
+		</div>
+		<div id="Parent">
+			<div id="FrontOT">
+			</br>
+				<div id="Result">
+					<h2 class="Headers">Hello, <%= @user.name or @user.email %>!</h2>
+					
+					
+					<% if @user.group.present? %>
+						<b>Your group is</b> <em><%= @user.group.name %></em>
+					<% end %>
+						<br/>
+					<div id="edit_back_etc">
+						
+					<%= link_to 'Edit', edit_user_path(@user) %> |
+					<%= link_to 'Back', users_path %>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Footer">
+			Infolinia: 987 654 321 |
+			e-mail: e-sklep@info.pl |
+			pon-pt: 10.00-20.00
+	</div>
+</div>
+
+
+
+
